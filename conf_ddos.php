@@ -15,9 +15,9 @@
   $minute = 0;
   
   // установка данных для администратора
-  $to      = 'support@voting.ru';   //Адрес админа
-  $headers = 'From: voting.ru support@voting.ru' . "\r\n" .   // 	   
-    		 'X-Mailer: voting.ru защишен от DDoS';
+  $to      = 'support@domainname.com';   //Адрес админа
+  $headers = 'From: domainname.com support@domainname.com' . "\r\n" .   // 	   
+    		 'X-Mailer: domainname.com защишен от DDoS';
   $subject = "Предупреждение на возможные DDOS атаки @ $today:$min:$sec";
   
 
